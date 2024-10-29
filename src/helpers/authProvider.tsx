@@ -11,7 +11,6 @@ export default function AuthProvider({
   const storeRef = useRef<AppStore>()
   if (!storeRef.current) {
     storeRef.current = createStore()
-    storeRef.current.dispatch(add("testId"))
   }
   return (
     <SessionProvider>

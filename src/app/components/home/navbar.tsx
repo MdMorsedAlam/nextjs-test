@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ShopCart from "./ShoppingCart";
+
 
 const Navbar=()=>{
     return(
@@ -9,6 +11,7 @@ const Navbar=()=>{
            <li className="font-bold cursor-pointer text-xl bg-green-500 text-white px-3 hover:bg-green-600 py-1 rounded-md"><Link href="/contact">Contact</Link></li>
            <li className="font-bold cursor-pointer text-xl bg-green-500 text-white px-3 hover:bg-green-600 py-1 rounded-md"> <Link href="/products">Blog</Link></li>
            <li className="font-bold cursor-pointer text-xl bg-green-500 text-white px-3 hover:bg-green-600 py-1 rounded-md"> <Link href="/login">Login</Link></li>
+            <ShopCart/>
         </ul>
        </section>
     )
