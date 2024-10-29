@@ -76,7 +76,7 @@ try {
   </CardContent>
   <CardFooter>
   <button className="bg-green-500 py-3 px-4 rounded-md text-white text-xl font-semibold mr-2" onClick={loginHandel}>Sign in</button>
-  <button className="bg-green-500 py-3 px-4 rounded-md text-white text-xl font-semibold" onClick={()=>{signIn('github')}}>Sign in with githhub</button>
+  <button className="bg-green-500 py-3 px-4 rounded-md text-white text-xl font-semibold" onClick={()=>{signIn('github')}}>Sign in with github</button>
   </CardFooter>
 </Card>
 
